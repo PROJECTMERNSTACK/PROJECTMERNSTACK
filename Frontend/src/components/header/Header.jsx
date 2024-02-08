@@ -7,7 +7,7 @@ import { Button, Container, Row } from 'react-bootstrap';
 import { RiAlignJustify } from "react-icons/ri";
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 
-import logo from '../../components/image/logo.jpg';
+import logo from '../../components/image/logo.png';
 
 const nav__links = [
     {
@@ -44,9 +44,8 @@ const Header = () => {
 
                 <div className='head d-flex align-items-center justify-content-between gap-4'>
 
-                    <div className='logo'><marquee direction="left">
-                        <img id="logo" src={logo} alt='' /><span>T</span>ravel to.
-                    </marquee>
+                    <div className='logo'>
+                        <img id="logo" src={logo} alt='' /><span>V</span>ista Quest.
                     </div>
 
                     <div className='navigation' ref={menuRef} onClick={toggleMenu}>
@@ -87,6 +86,6 @@ const Header = () => {
 
             </Row>
         </Container>
-    </header>
+    </header >
 }
 export default Header

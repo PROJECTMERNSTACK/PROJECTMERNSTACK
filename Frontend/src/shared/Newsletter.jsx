@@ -1,7 +1,7 @@
 import React from 'react'
-import './newsletter.css'
-import { Container, Row, Col } from 'reactstrap'
+import { Col, Container, Row } from 'reactstrap'
 import maleTourist from '../file/image/male-tourist.png'
+import './newsletter.css'
 
 const NewsLetter = () => {
    return (
@@ -14,10 +14,9 @@ const NewsLetter = () => {
 
                      <div className="newsletter__input">
                         <input type="email" placeholder='Enter your email' />
-                        <button className="btn newsletter__btn">Subcribe</button>
+                        <button className="btn newsletter__btn">Subscribe</button>
                      </div>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati adipisici sunt in, provident facere ipsam?
+                     <p>Subscribe Now and recieve additional benifits. T/C applied.
                      </p>
                   </div>
                </Col>

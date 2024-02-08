@@ -1,25 +1,25 @@
 import React from 'react'
-import ServiceCard from './ServiceCard'
 import { Col } from 'reactstrap'
-import weatherImg from '../file/image/weather.png'
-import guideImg from '../file/image/guide.png'
 import customizationImg from '../file/image/customization.png'
+import guideImg from '../file/image/guide.png'
+import weatherImg from '../file/image/weather.png'
+import ServiceCard from './ServiceCard'
 
 const servicesData = [
    {
       imgUrl: weatherImg,
       title: `Calculate Weather`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      desc: `Calculate weather before hand.`,
    },
    {
       imgUrl: guideImg,
       title: `Best Tour Guide`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      desc: `We provide highly qualified tour guides.`,
    },
    {
       imgUrl: customizationImg,
       title: 'Customization',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      desc: `you can customise your experience by talking to our agent.`,
    },
 ]
 
