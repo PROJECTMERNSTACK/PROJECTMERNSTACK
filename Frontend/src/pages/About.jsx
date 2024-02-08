@@ -47,7 +47,7 @@ const About = () => {
                 <img src="https://i.gifer.com/I5Wi.gif" alt="Image" id="fire" className='img' />
             </div>
             <div className="info">
-                <h1>ABOUT TRAVEL TO</h1>
+                <h1>ABOUT TRAVEL TO THE UNKNOW</h1>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                     nostrum excepturi unde eveniet delectus? Porro esse laudantium hic
