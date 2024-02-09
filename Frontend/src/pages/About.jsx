@@ -3,40 +3,11 @@ import '../style/About.css';
 
 const About = () => {
     return <>
-<<<<<<< HEAD
-        <div>
-            <div className="camp">
-                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/78235/tent-clipart-md.png" alt="Image" id="tent" className='img' />
-                <img src="https://i.gifer.com/I5Wi.gif" alt="Image" id="fire" className='img' />
-            </div>
-            <div className="info">
-                <h1>ABOUT TRAVEL TO THE UNKNOW</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                    nostrum excepturi unde eveniet delectus? Porro esse laudantium hic
-                    ipsam sed inventore, aliquid quidem tempora rem harum quasi quia
-                    corrupti dignissimos?
-                </p>
-            </div>
-            <div className="lower">
-                <div className="info" id="lower-info">
-                    <h1>ABOUT OUR TEAM</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-                        nostrum excepturi unde eveniet delectus? Porro esse laudantium hic
-                        ipsam sed inventore, aliquid quidem tempora rem harum quasi quia
-                        corrupti dignissimos?
-                    </p>
-                </div>
-                <div className="slider" id="lower-img">
-                    <img src="https://i.pinimg.com/736x/6d/7d/b3/6d7db3a1037c8ac5b41b0ebfec293ca4.jpg" alt="Image" ref={slideRef} />
-=======
         <div class="mycontainer">
             <div class="about">
                 <div class="text">
                     <h1>About Us</h1>
                     <div class="line"></div>
->>>>>>> f5d16bf (sss)
                 </div>
             </div>
             <div class="content">
