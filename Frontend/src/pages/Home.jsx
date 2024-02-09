@@ -4,7 +4,7 @@ import '../style/Home.css'
 
 import heroImg from '../file/image/Travel1.jpg'
 import heroImg02 from '../file/image/Travel2.jpg'
-import experienceImg from '../file/image/experience.jpg'
+import experienceImg from '../file/image/experience.png'
 import heroVideo from '../file/image/hero-video.mp4'
 import worldImg from '../file/image/world.png'
 
